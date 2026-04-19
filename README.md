@@ -1,90 +1,84 @@
-# Hi, I'm Newworld Osemwegie 👋
+# Transportation Service Analysis — MTA Public Data
 
-**Data Analyst | Excel | SQL | Power BI | Tableau | Python | Engineering Background**
+## Project Overview
 
-I analyze operational and service data to uncover trends, build dashboards, and support better decisions. My portfolio focuses on using real public datasets to demonstrate practical analytics skills across **transportation services** and **healthcare services**.
+This project uses official public transportation data to analyze **ridership demand, mode performance, service recovery, and operational reporting trends**. It is designed to demonstrate how transportation service data can be transformed into practical insights for planning and decision-making.
 
-## About Me
+## Data Source
 
-I bring a combination of:
-- **Analytical problem-solving**
-- **Operational thinking**
-- **Dashboard storytelling**
-- **Data cleaning and transformation**
-- **KPI reporting and insight communication**
+Official MTA Daily Ridership Data (public dataset)
 
-With a background in engineering and project delivery, I approach data with structure, logic, and a strong focus on real-world impact.
+## Business Problem
 
-## Tech Stack
+Transport agencies and service planners need visibility into how ridership changes over time, how different modes perform, and which patterns matter most for planning and reporting. This project addresses that need by structuring public data into a format suitable for KPI tracking and dashboard analysis.
 
-![Excel](https://img.shields.io/badge/Excel-Advanced-brightgreen)
-![SQL](https://img.shields.io/badge/SQL-Analysis-blue)
-![Power BI](https://img.shields.io/badge/Power%20BI-Dashboarding-yellow)
-![Tableau](https://img.shields.io/badge/Tableau-Visualization-orange)
-![Python](https://img.shields.io/badge/Python-Data%20Analysis-informational)
+## Objectives
 
-## Featured Projects
+- Analyze ridership trends over time
+- Compare usage across transport modes
+- Evaluate service recovery patterns
+- Identify strong and weak demand periods
+- Design dashboard-ready KPIs for transport reporting
 
-### 🚇 Transportation Service Analysis — MTA Public Data
-Analyzed public transportation ridership data to evaluate service demand, compare travel modes, identify recovery patterns, and support KPI-based transport reporting.
+## Tools Used
 
-**What this project shows**
-- Time-series analysis
-- KPI design for transport operations
-- Trend reporting and dashboard planning
-- Public sector service analytics
+- Excel
+- SQL
+- Power BI / Tableau
+- Python (Pandas, Matplotlib)
 
-**Repository:** `transportation-mta-service-analysis`
+## Analysis Approach
 
----
+- Data loading and cleaning
+- Date-based trend analysis
+- Mode comparison
+- Rolling average and growth analysis
+- KPI definition for reporting dashboards
 
-### 🏥 Healthcare Service Analysis — CMS Hospital Data
-Analyzed public hospital performance data to benchmark facilities, evaluate efficiency, compare service quality indicators, and support management reporting.
+## Result Highlights
 
-**What this project shows**
-- Performance benchmarking
-- Healthcare KPI reporting
-- Comparative analysis by state and facility
-- Dashboard planning for executive reporting
+- Structured raw ridership data into an analysis-ready format for reporting
+- Identified clear daily and long-term ridership patterns across transport modes
+- Created a framework for comparing subway, bus, rail, bridge, and tunnel usage
+- Designed dashboard-ready KPIs that support operational monitoring
+- Produced an executive-style project structure that can be extended into Power BI or Tableau
 
-**Repository:** `healthcare-cms-hospital-analysis`
+## Suggested Dashboard KPIs
 
-## Pinned Repository Descriptions
+- Total daily ridership
+- Ridership by mode
+- 7-day moving average
+- Mode share percentage
+- Month-over-month ridership change
+- Recovery trend index
 
-- **transportation-mta-service-analysis** — Ridership trend analysis, service monitoring KPIs, and dashboard-ready transport insights using official MTA public data.
-- **healthcare-cms-hospital-analysis** — Hospital benchmarking, efficiency analysis, and healthcare service reporting using official CMS public data.
+## Repository Structure
 
-## What Recruiters Will Find Here
+```bash
+transportation-mta-service-analysis/
+│── data/
+│   ├── raw/
+│   └── processed/
+│── scripts/
+│   └── download_mta_data.py
+│── notebooks/
+│   └── mta_analysis_starter.ipynb
+│── sql/
+│   └── mta_queries.sql
+│── dashboard/
+│   └── dashboard_notes.md
+│── reports/
+│   └── executive_summary.md
+│── images/
+│   └── README.md
+└── README.md
+```
 
-- Real public datasets
-- Clean project documentation
-- SQL analysis files
-- Starter notebooks
-- Dashboard planning notes
-- Executive-style summary reports
+## Portfolio Value
 
-## Contact
+This project shows my ability to work with real public transportation data, structure analysis workflows, define meaningful service KPIs, and communicate insights in a business-friendly way.
 
-- **LinkedIn:** https://www.linkedin.com/in/newworld-osemwegie
-- **Email:** Newworldfrost@gmail.com
-- **Location:** Nigeria
+## Author
 
-## GitHub Bio
-
-**Data Analyst | SQL, Excel, Power BI, Tableau, Python | Transport & Healthcare Analytics**
-## Hi there 👋
-
-<!--
-**Neofrost4/Neofrost4** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Newworld Osemwegie**  
+Data Analyst | Transport Analytics
