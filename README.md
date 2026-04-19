@@ -65,8 +65,8 @@ Analyzed public hospital performance data to benchmark facilities, evaluate effi
 
 ## Contact
 
-- **LinkedIn:** Add your LinkedIn link
-- **Email:** Add your email
+- **LinkedIn:** https://www.linkedin.com/in/newworld-osemwegie
+- **Email:** Newworldfrost@gmail.com
 - **Location:** Nigeria
 
 ## GitHub Bio
